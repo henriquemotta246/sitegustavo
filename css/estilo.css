@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI', sans-serif; 
+}
+
+body {
+    background-image: url("../imagens/foto1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titulo {
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6); 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #00d2ff; 
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.realmadrid, .milan, .bayerdemunique {
+    background: rgba(10, 17, 40, 0.75); 
+    backdrop-filter: blur(10px);        
+    -webkit-backdrop-filter: blur(10px);
+    
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;                
+    padding: 25px;
+    margin: 15px 0;
+    width: 100%;
+    max-width: 500px;                
+    
+    text-align: center;
+    color: #ffffff;
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.realmadrid:hover, .milan:hover, .bayerdemunique:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 25px rgba(0, 210, 255, 0.3); 
+    cursor: pointer;
+}
+
+
+.realmadrid {
+    border-left: 5px solid #fffffe; 
+}
+
+.milan {
+    border-left: 5px solid #e74c3c; 
+}
+
+.bayerdemunique {
+    border-left: 5px solid #3498db; 
+}
