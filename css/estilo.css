@@ -6,21 +6,20 @@
     font-family: 'Poppins', 'Segoe UI', sans-serif; 
 }
 
-body {
-    background-image: url("../imagens/foto1.webp");
+body{
+    background-image: url("../imagens/foto5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
     color: #ffffff;
-    min-height: 100vh;
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;            
+    min-height: 100vh;      
+    flex-direction: column;   
+    justify-content: center;  
+    align-items: center;      
+    text-align: center;       
 }
-
-
 .titulo {
     font-size: 2.8rem;
     font-weight: 800;
@@ -28,36 +27,50 @@ body {
     letter-spacing: 2px;
     color: #ffffff;
     text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6); 
-    text-align: center;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
 }
+
 
 .subtitulo {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #00d2ff; 
+    color: #ffffff; 
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
     text-align: center;
     margin-bottom: 50px;
 }
 
-.realmadrid, .milan, .bayerdemunique {
-    background: rgba(10, 17, 40, 0.75); 
+.historia {
+    background: rgba(255, 255, 255, 0); 
     backdrop-filter: blur(10px);        
-    -webkit-backdrop-filter: blur(10px);
-    
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(10, 4, 4, 0.062);
     border-radius: 12px;                
     padding: 25px;
     margin: 15px 0;
     width: 100%;
     max-width: 500px;                
+    color: #fffdfd;
+    justify-content: center;
     
-    text-align: center;
-    color: #ffffff;
-    
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.formatoatual{
+    background: rgba(255, 255, 255, 0); 
+    backdrop-filter: blur(10px);        
+    border: 1px solid rgba(10, 4, 4, 0.062);
+    border-radius: 12px;                
+    padding: 25px;
+    margin: 15px 0;
+    width: 100%;
+    max-width: 500px;                
+    color: #fffdfd;
+    justify-content: center;
+    
+}
+
 
 
 .realmadrid:hover, .milan:hover, .bayerdemunique:hover {
@@ -68,7 +81,7 @@ body {
 
 
 .realmadrid {
-    border-left: 5px solid #fffffe; 
+    border-left: 5px solid #00000000; 
 }
 
 .milan {
